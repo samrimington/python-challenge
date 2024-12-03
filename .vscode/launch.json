@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run challenge",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "challenge_${input:challenge_number}"
+        }
+    ],
+    "inputs": [
+        {
+            "type": "promptString",
+            "id": "challenge_number",
+            "description": "Enter challenge number"
+        }
+    ]
+}
